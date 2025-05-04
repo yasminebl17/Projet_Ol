@@ -9,7 +9,7 @@ from sklearn.metrics import precision_score
 # Initialisation de la page Streamlit
 st.set_page_config(page_title="Détection d'Intrusion", layout="wide")
 
-st.markdown("<h2 style='color:#00ffcc;'>🔐 Simulation de détection d'attaques réseau</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='color:#00ffcc;'>🔐 Détection séquentielle des attaques en temps réel </h2>", unsafe_allow_html=True)
 
 # Zone de texte pour les logs
 log_zone = st.empty()
