@@ -91,7 +91,7 @@ if uploaded_file:
                     # Traitement du paquet avec les esclaves
                     
                     
-                    with ThreadPoolExecutor(max_workers=14) as executor:
+                    with ThreadPoolExecutor(max_workers=18) as executor:
                         futures = [executor.submit(simulate_slave, batch_data) for _ in range(3)]
                         for future in futures:
                             batch_result, nb_attacks = future.result()
